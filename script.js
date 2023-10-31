@@ -78,7 +78,7 @@ function activeMenu() {
 activeMenu();
 window.addEventListener("scroll", activeMenu);
 
-// sticky navbar ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// sticky navbar ///////////////////////garde le menu de navigation actif en fonction de la section visible sur la page pendant le défilement.///////////////////////////
 
 const header = document.querySelector("header");
 
@@ -86,7 +86,7 @@ window.addEventListener("scroll", function () {
   header.classList.toggle("sticky", window.scrollY > 50);
 });
 
-// sticky navbar ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// sticky navbar ///////////////////Barre de navigation collante ///////////////////////////////////////////////
 
 let menuIcon = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
